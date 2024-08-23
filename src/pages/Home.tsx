@@ -18,7 +18,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 
-const url = "https://reelo-backend-production.up.railway.app/";
+const url = "https://reelo-backend-production.up.railway.app";
 
 const Home: React.FC = () => {
     const audioRef = useRef<HTMLAudioElement>(null)

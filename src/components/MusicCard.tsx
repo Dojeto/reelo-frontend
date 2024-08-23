@@ -17,7 +17,7 @@ type MusicCardProps = {
   id: string;
 };
 
-const url = "https://reelo-backend-production.up.railway.app/"
+const url = "https://reelo-backend-production.up.railway.app"
 
 const MusicCard = forwardRef<HTMLAudioElement, MusicCardProps>(
   ({ inputRef, artist, name, link, id }) => {
