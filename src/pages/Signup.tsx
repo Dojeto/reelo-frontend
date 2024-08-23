@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
-const url = process.env.PROD_URL || "http://localhost:3000"
+const url = "https://reelo-backend-production.up.railway.app/"
 
 const Signup : React.FC = ()=>{
     const navigate = useNavigate();
